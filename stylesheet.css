@@ -1,318 +1,112 @@
-body{
-
-
-
+@charset "UTF-8";
+body {
+  color: #333;
+  font-family: "Montserrat", "游ゴシック", "YuGothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ";
 }
 
-ul{  list-style:none;
+body ul {
+  list-style: none;
 }
 
-
-// <!-- header/ -->
-
-
-
-
-
-// <top> 
-
-
-.top{
-    height:cover;
-    width:100%;
-background-image: url(img/web1.jpg);
-background-size: cover;
-background-position: center;
-
-
-.main{
-    padding:100px;
-
-
-
-
-.btn-push {
-    display: inline-block;
-    max-width: 250px;
-    text-align: left;
-    background-color:#6fc173;
-    font-size: 20px;
-    color: #FFF;
-    text-decoration: none;
-    padding: 10px 30px;
-    border-radius: 4px;
-    border-bottom: 4px solid #449f49;
-  }
-  
-  .btn-push:hover {
-      transform: translateY(4px);
-      border-bottom: none;
-  }
-}
+body .top {
+  height: 500px;
+  background-position: center;
+  background-image: url(img/fitzroy.jpg);
+  background-size: cover;
+  color: white;
 }
 
-
-
-
-
-
-
-// <!-- <course> -->
-
-.course{
-
-    .course-row{
-        margin:0 auto;
-
-        width:75%;
-
-      img{
-        height:150px;
-        border-radius: 5px;
-        
-    }
-}
+body .top .top-wrapper {
+  padding: 200px;
 }
 
-
-
-
-// <!-- <vancouver> -->
-
-.vancouver{
-background-image: url(img/vancouver.jpg);
-background-size: cover;
-background-position: center;
-height:cover;
-
-
-.sentence-section{
-    
-    width:70%;
-    margin:0 auto;
-
-
+body .top .top-wrapper h1 {
+  font-family: 'Batang',serif;
+  font-size: 55px;
+  letter-spacing: 0.2rem;
+  line-height: 6rem;
+  margin: 0 auto;
+  width: 550px;
+  height: 100px;
+  background-color: rgba(34, 31, 31, 0.6);
 }
 
+body .about {
+  height: auto;
 }
 
-
-
-// <!-- curriculum -->
-
-
-.curriculum{
-
-  
-    .web {
-        // float:left;
-        
-        .icon{
-            font-size:70px;
-            float:left;
-        }
-        .c-sentence{
-            width:%;
-        }
-
-    }
-
-
-    .webdairy-section table{
-        .days{
-            width:70px;
-            height:50px;
-        }
-        .days-todo{
-            text-align: left;
-            padding-left:10px;
-        } 
-    }
-        .schedule-section table{
-
-            .each-days{
-                width:180px;
-                height:60px;
-            }
-            .lessons{
-                height:90px;
-            } 
-        
-
-    }
+body .about .skills .fab-icon {
+  padding-top: 30px;
+  padding-left: 50px;
 }
 
-
-
-// <!-- review/ -->
-
-.review{
-
-    height:auto;
-
-    .review-name{
-      
-    
-    }
-
-
-    img{
-        height:150px;
-        border-radius: 75px;
-
-        
+body .about .skills .fab-icon .fab {
+  width: 30%;
+  float: left;
+  line-height: 5rem;
 }
 
-.review-sentence{
-    background-color: beige;
-    border-radius: 10px;
-    padding:20px 0;
-    position: relative;
-
-    
-
-    p{width:90%;
-        margin:0 auto;
-        line-height: 1.75rem;
-       }
-
-}
+body .works {
+  height: auto;
 }
 
-
-
-// <!-- price/ -->
-
-
-.price{
-
-
-    .price-section{
-
-    .price-table table{
-        text-align: center;
-        padding:auto 5px;
-        letter-spacing: 0.1rem;
-
-        
-        
-        tr{
-            border:1px solid #333; 
-            width:200px;
-            height:50px;
-
-            .numbers{font-size:30px;}
-        }
-    }
-    }
- }
-
-
-
-// <!-- question -->
-
-.q-wrapper{
-    width:100%;
-    height:auto;
-    padding:50px;
-    border-top:1px solid #333;
-
-
-
-
-#faq-list{
-    width: 500px;
-    margin: 0 auto;
-    padding: auto;
-  
-    .faq-list-item {
-    margin:5px 10px;
-    border-bottom:1px solid #ccc;
-    position:relative;
-    cursor:pointer;
-    text-align:left;
-
-    .question{
-        font-weight:bold;
-        font-size:20px;
-    }
-  
-  
-    span {
-    position:absolute;
-    top:0;
-    right:5px;
-    color:#ccc;
-    font-size:20px;
-  }
-  
-  
-  .answer {
-    font-size: 15px;
-    display: none;
-    padding: 10px 0px;
-  }
-  
-  }
-  }
-  }
-  
-  
-
-  
-
-
-// <!-- contact/ -->
-
-.contact{background-color: beige;
-
-    .contact-section{
-
-
-    }
-
-    .contact-submit{
-        width:400px;
-        height:40px;
-        
-
-
-        
-    }
-    .text-submit{
-        width:100%;
-        max-width: 500px;
-        height:200px;
-        border:1px solid lightgray;
-    
-    }
-
+body .works .work .muf img {
+  margin: 0 auto;
+  display: block;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  width: 300px;
+  height: 230px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
-
-// bottom
-
-#scroll {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    color: #696969;
-    background-color: #d3d3d3;
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
-    line-height: 50px;
-    text-align: center;
-    font-size: 24px;
+body .works .work .muf:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
 }
 
-
-// <!-- footer/ -->
-
-footer{
-    
-    
-    
-    
+body #contact-form {
+  height: auto;
 }
 
+body #contact-form h3 {
+  padding: 30px 0 15px;
+  border-bottom: 3px solid #ddd;
+}
+
+body #contact-form p {
+  padding-top: 20px;
+}
+
+body #contact-form input {
+  width: 400px;
+  height: 40px;
+  border: 1px solid #ddd;
+}
+
+body #contact-form textarea {
+  width: 400px;
+  height: 200px;
+  border: 1px solid #ddd !important;
+}
+
+body #contact-form .contact-button {
+  margin: 10px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 25px;
+  width: 100px;
+  letter-spacing: 0.25rem;
+}
+
+body #contact-form .contact-button:hover {
+  background-color: #7c7c7c;
+  color: white;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+/*# sourceMappingURL=stylesheet.css.map */
