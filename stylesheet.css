@@ -1,112 +1,199 @@
-@charset "UTF-8";
-body {
-  color: #333;
-  font-family: "Montserrat", "游ゴシック", "YuGothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ";
+body{
+    color:#333;
+    font-family: "Montserrat","游ゴシック","YuGothic","ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",;
+    
+    ul{list-style: none;}
+
+
+
+
+    .header{
+        width:100%;
+        position:fixed;
+        opacity:0.9;
+        margin:right;
+        top:0;
+        z-index: 10;
+
+        .container{
+
+            .navbar{
+                .nav-link{
+                    float:right;
+
+    
+}
+        }
+    }
 }
 
-body ul {
-  list-style: none;
-}
+    // top/
 
-body .top {
-  height: 500px;
-  background-position: center;
-  background-image: url(img/fitzroy.jpg);
-  background-size: cover;
-  color: white;
-}
+    .top{
+        height: auto;
+        background-position: center;
+        background-image: url(img/fitzroy.jpg);
+        background-size: cover;
+        color:white;
 
-body .top .top-wrapper {
-  padding: 200px;
-}
 
-body .top .top-wrapper h1 {
-  font-family: 'Batang',serif;
-  font-size: 55px;
-  letter-spacing: 0.2rem;
-  line-height: 6rem;
-  margin: 0 auto;
-  width: 550px;
-  height: 100px;
-  background-color: rgba(34, 31, 31, 0.6);
-}
 
-body .about {
-  height: auto;
-}
+       .top-wrapper{
+           padding:150px 0;
+        font-family: 'Batang',serif;
+            letter-spacing: 0.2rem;
+            font-size:40px;
 
-body .about .skills .fab-icon {
-  padding-top: 30px;
-  padding-left: 50px;
-}
 
-body .about .skills .fab-icon .fab {
-  width: 30%;
-  float: left;
-  line-height: 5rem;
-}
 
-body .works {
-  height: auto;
-}
+           h1{
+               font-size: 60px;
+  
+               }
+         }
 
-body .works .work .muf img {
-  margin: 0 auto;
-  display: block;
-  -webkit-transition-duration: 0.3s;
-          transition-duration: 0.3s;
-  width: 300px;
-  height: 230px;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
 
-body .works .work .muf:hover {
-  cursor: pointer;
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-  -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s;
-}
+    }
 
-body #contact-form {
-  height: auto;
-}
 
-body #contact-form h3 {
-  padding: 30px 0 15px;
-  border-bottom: 3px solid #ddd;
-}
 
-body #contact-form p {
-  padding-top: 20px;
-}
 
-body #contact-form input {
-  width: 400px;
-  height: 40px;
-  border: 1px solid #ddd;
-}
 
-body #contact-form textarea {
-  width: 400px;
-  height: 200px;
-  border: 1px solid #ddd !important;
-}
+    // top/
 
-body #contact-form .contact-button {
-  margin: 10px;
-  text-align: center;
-  font-weight: bold;
-  border-radius: 25px;
-  width: 100px;
-  letter-spacing: 0.25rem;
-}
 
-body #contact-form .contact-button:hover {
-  background-color: #7c7c7c;
-  color: white;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
-}
-/*# sourceMappingURL=stylesheet.css.map */
+
+// about/
+    .about{
+        height:auto;
+    
+
+        .skills{
+
+            .fab-icon{
+                padding-top:30px;
+                padding-left:50px;
+            .fab{
+                width:30%;
+                float:left;
+                line-height: 3rem;
+            }
+            p{font-size:20px;
+            }
+        }
+        }
+    
+        }
+
+
+    //    works/
+
+    .works{
+        height:auto;
+
+
+        .work{
+            .muf{
+                
+            img{ margin:0 auto;
+                display:block;
+                transition-duration: 0.3s;
+                width:300px;
+                height:230px;
+                object-fit: cover;    
+
+                }
+                &:hover{
+                    cursor: pointer;
+                    transform: scale(1.05);
+                    transition-duration: 0.5s;
+                }
+            }
+         }
+        }
+
+
+        // service/
+        .Service{
+            background-position: center;
+            background-color:gray;
+            background-size: cover;
+            height:auto;
+
+            
+            .service-section{ 
+                
+                .services{
+            .service-icon{
+                color:white;
+                border:5px solid white;
+            }
+                
+
+        }
+    }
+
+        }
+
+    // contact/
+    #contact-form{
+        height:auto;
+
+        h3{
+            padding:30px 0 15px;   
+            border-bottom:3px solid #ddd;
+        }
+
+        p{
+            padding-top:20px;
+
+        }
+
+
+        input{
+            width:400px;
+            height:40px;
+            border:1px solid #ddd;
+
+        }
+        textarea{
+            width:400px;
+            height:200px;
+            border:1px solid #ddd !important;
+
+
+        }
+
+        .contact-button{
+            margin: 10px;
+            text-align: center;
+            font-weight: bold;
+            border-radius:25px;
+            width:100px;
+            letter-spacing: 0.25rem;
+
+
+
+        &:hover{
+            background-color: rgb(124, 124, 124);
+            color:white;
+            transition:all 0.4s;
+        }
+        }
+        
+
+    }
+       
+
+        // footer/
+
+
+        .footer{
+            color:white;
+            height:60px;
+            background-color: rgb(51, 51, 51);
+
+
+        }
+
+    }
