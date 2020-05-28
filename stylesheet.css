@@ -1,0 +1,199 @@
+body{
+    color:#333;
+    font-family: "Montserrat","游ゴシック","YuGothic","ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",;
+    
+    ul{list-style: none;}
+
+
+
+
+    .header{
+        width:100%;
+        position:fixed;
+        opacity:0.9;
+        margin:right;
+        top:0;
+        z-index: 10;
+
+        .container{
+
+            .navbar{
+                .nav-link{
+                    float:right;
+
+    
+}
+        }
+    }
+}
+
+    // top/
+
+    .top{
+        height: auto;
+        background-position: center;
+        background-image: url(img/fitzroy.jpg);
+        background-size: cover;
+        color:white;
+
+
+
+       .top-wrapper{
+           padding:150px 0;
+        font-family: 'Batang',serif;
+            letter-spacing: 0.2rem;
+            font-size:40px;
+
+
+
+           h1{
+               font-size: 60px;
+  
+               }
+         }
+
+
+    }
+
+
+
+
+
+    // top/
+
+
+
+// about/
+    .about{
+        height:auto;
+    
+
+        .skills{
+
+            .fab-icon{
+                padding-top:30px;
+                padding-left:50px;
+            .fab{
+                width:30%;
+                float:left;
+                line-height: 3rem;
+            }
+            p{font-size:20px;
+            }
+        }
+        }
+    
+        }
+
+
+    //    works/
+
+    .works{
+        height:auto;
+
+
+        .work{
+            .muf{
+                
+            img{ margin:0 auto;
+                display:block;
+                transition-duration: 0.3s;
+                width:300px;
+                height:230px;
+                object-fit: cover;    
+
+                }
+                &:hover{
+                    cursor: pointer;
+                    transform: scale(1.05);
+                    transition-duration: 0.5s;
+                }
+            }
+         }
+        }
+
+
+        // service/
+                      .Service{
+                          background-position: center;
+                          background-color:gray;
+                          background-size: cover;
+                          height:auto;
+                         
+                          
+                          .service-section{ 
+                              
+                              .services{
+                          .service-icon{
+                              color:white;
+                              border:5px solid white;
+                          }
+                              
+                      
+                      }
+    }                
+                    
+                     }
+                 
+    // contact/
+    #contact-form{
+        height:auto;
+
+        h3{
+            padding:30px 0 15px;   
+            border-bottom:3px solid #ddd;
+        }
+
+        p{
+            padding-top:20px;
+
+        }
+
+
+        input{
+            width:400px;
+            height:40px;
+            border:1px solid #ddd;
+
+        }
+        textarea{
+            width:400px;
+            height:200px;
+            border:1px solid #ddd !important;
+
+
+        }
+
+        .contact-button{
+            margin: 10px;
+            text-align: center;
+            font-weight: bold;
+            border-radius:25px;
+            width:100px;
+            letter-spacing: 0.25rem;
+
+
+
+        &:hover{
+            background-color: rgb(124, 124, 124);
+            color:white;
+            transition:all 0.4s;
+        }
+        }
+        
+
+    }
+       
+
+        // footer/
+
+
+        .footer{
+            color:white;
+            height:60px;
+            background-color: rgb(51, 51, 51);
+
+
+        }
+
+    }
