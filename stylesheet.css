@@ -134,7 +134,11 @@ body{
                     
                      }
                  
+    
+    
+    
     // contact/
+    
     #contact-form{
         height:auto;
 
@@ -149,7 +153,7 @@ body{
         }
 
 
-        input{
+        .contact-submit{
             width:400px;
             height:40px;
             border:1px solid #ddd;
