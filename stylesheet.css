@@ -141,14 +141,17 @@ body{
     
     #contact-form{
         height:auto;
+        color:red;
 
         h3{
             padding:30px 0 15px;   
-            border-bottom:3px solid #ddd;
+            border-bottom:3px solid yellow;
         }
 
         p{
             padding-top:20px;
+                    color:blue;
+
 
         }
 
@@ -156,13 +159,13 @@ body{
         .contact-submit{
             width:400px;
             height:40px;
-            border:1px solid #ddd;
+            border:1px solid green;
 
         }
         textarea{
             width:400px;
             height:200px;
-            border:1px solid #ddd !important;
+            border:1px solid pink !important;
 
 
         }
@@ -174,12 +177,14 @@ body{
             border-radius:25px;
             width:100px;
             letter-spacing: 0.25rem;
+                    color:orange;
+
 
 
 
         &:hover{
             background-color: rgb(124, 124, 124);
-            color:white;
+            color:brown;
             transition:all 0.4s;
         }
         }
