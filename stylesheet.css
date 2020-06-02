@@ -92,7 +92,7 @@ body{
         height:auto;
 
 
-        .work{
+        ＃work-form{
             .muf{
                 
             img{ margin:0 auto;
@@ -114,7 +114,7 @@ body{
 
 
         // service/
-        .Service{
+        #service-form{
                           background-position: center;
                           background-color:;
                           background-size: cover;
@@ -125,7 +125,7 @@ body{
                               
                               .services{
                           .service-icon{
-                              border:5px solid red;
+                              border:5px solid;
                           }
                             
                       
