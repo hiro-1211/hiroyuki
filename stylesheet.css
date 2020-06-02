@@ -32,7 +32,7 @@ body{
     .top{
         height: auto;
         background-position: center;
-        background-image: url(fitzroy.jpg);
+        background-image: url(img/fitzroy.jpg);
         background-size: cover;
         color:white;
 
@@ -114,9 +114,9 @@ body{
 
 
         // service/
-                      .Service{
+        .Service{
                           background-position: center;
-                          background-color:gray;
+                          background-color:;
                           background-size: cover;
                           height:auto;
                          
@@ -125,10 +125,9 @@ body{
                               
                               .services{
                           .service-icon{
-                              color:white;
-                              border:5px solid white;
+                              border:5px solid red;
                           }
-                              
+                            
                       
                       }
     }                
