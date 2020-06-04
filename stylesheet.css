@@ -1,0 +1,694 @@
+body{
+    text-align:center;
+    font-family: "Montserrat","游ゴシック","YuGothic","ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",;
+   
+
+    color:#333;
+    width:100%;
+    margin:0 auto;
+
+
+
+}
+
+ul{list-style: none;
+    
+}
+
+a{color:#333;
+    text-decoration: none;
+
+    &:hover{
+        color:lightgrey;
+
+    }
+
+}
+
+
+
+
+// <!-- header -->
+   .navi{
+       padding:20 30;
+       height:70px;
+       background-color:#fff;
+
+
+
+
+    .header-left{
+        float:left;
+
+
+        h1{
+        font-family:'Trebuchet';
+         font-size: 25px;
+        letter-spacing:0.1em;
+        padding:5px;
+        font-weight: bold;
+        line-height: 30px;
+        margin:0 auto;
+        border-color: #333;
+        border-style: solid;
+        border-width: 3px;
+        border-collapse: collapse;
+        }
+        
+    }
+     .header-right{
+         float:right;
+         width:500px;
+         ul{
+
+            li{display:inline;
+                a{
+                font-size:20px;
+                padding: 10px 24px;
+                font-weight: bold;
+                letter-spacing: 0.2em;
+                
+
+            }
+         }
+     }
+
+   }
+
+// <!-- /header -->
+
+
+
+// <!-- top -->
+.top{
+    height:600px;
+    padding:100px;
+    background-image:url(img/coffeewith.jpg);
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+    .top-wrapper{
+        h1{
+            color:white;
+            font-family:'Trebuchet';
+             font-size: 70px;
+            letter-spacing:0.1em;
+            padding:20px;
+            font-weight: bold;
+            line-height: 100px;
+            margin:0 auto;
+            border-color: white;
+            border-style: solid;
+            border-width: 10px;
+            border-collapse: collapse;
+            }
+       }
+
+       .contents{
+       padding:100px;
+       
+.services{
+    height:350px;
+    float:left;
+    width: 50%;
+    margin:0 auto;}
+    
+
+
+.services-text{
+    color:white;
+    width:300px;
+    height:350px;
+    margin:0 auto;
+    padding:10px;
+    background-color:rgba(34,31,31,0.9);
+    &:hover{
+        color:white;
+        background-color:rgba(34,31,31,0.6);
+        cursor:pointer;
+        transition:0.2s ease;
+
+
+    }
+    h3{
+        font-size:25px;
+        font-weight: length($list:1 );
+
+    }
+    
+}
+}
+}
+
+
+// <!-- /top -->
+
+
+// <!-- middle -->
+.middle{
+    background-color: #fff;
+height:800px;
+text-align: center;
+
+.middle-wrapper{
+    padding:100px 0;
+    height:700px;
+.contents{
+    box-sizing: border-box;
+    height:650px;
+    margin:0 auto;
+    padding:100px,0;
+
+
+
+    .content{
+    position: relative;
+    width: 33%;
+    float:left;
+    
+
+    
+    h4{font-size:25px;}
+
+    
+    .content-img{
+
+        img{ margin:0 auto;
+            display:block;
+            transition-duration: 0.3s;
+            width:300px;
+            height:230px;
+            object-fit: cover;                            
+            }
+            &:hover{
+                cursor: pointer;
+                transform: scale(1.05);
+                transition-duration: 0.5s;
+            }
+        }
+    .text-contents{
+        width:300px;
+        margin:0 auto;}
+
+        .readmore{
+            text-align: center;
+            margin-top:30px; 
+
+            a{display: inline-block;
+            padding: 10px 24px;
+            color: white;
+            background-color:black;
+            cursor:pointer;
+            transition:all 0.3s;
+        &:hover{
+            cursor:pointer;
+            background-color:green;
+        }
+    }
+        }
+       
+    
+}
+    
+       
+}
+
+
+}
+}
+
+// <!-- /middle -->
+
+// <-- /center -->
+
+.center{
+    height:300px;
+    padding:100px,;
+    background-image:url(img/cafe1.jpg);
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+
+
+
+
+       .contents{
+       
+.services{
+    height:350px;
+    margin:0 auto;}
+    
+
+
+.services-text{
+    color:white;
+    font-weight: bold;
+    text-align: left;
+
+
+    }
+    h3{
+        width:700px;
+        font-size:35px;
+        font-weight:bold;
+        letter-spacing: 0.1em;
+    }
+    .service-text{
+        width:600px;
+    p{
+
+        font-size:15px;
+        color:white;
+        font-weight: length($list: 1);
+    }
+}
+
+}
+}
+
+// <!-- /center -->
+
+
+// <!-- bottom -->
+#bottom{
+    height:650px;
+    width:100%;
+    padding-top:100px;
+    background-color:#f6f6f6;
+
+       .bottom-wrapper{
+
+       .place_containt{
+        width:50%;
+        float:left;
+        
+        .place-img{
+            border-right-color: rgba(0, 0, 0, 0.498039);
+            border-right-style: solid;
+            border-width: 1.5px;
+            border-collapse: collapse;
+        }
+
+
+    
+        img{
+            width:400px;
+            height:450px;
+    }
+       }
+    .place_text{
+        h2{font-size: 45px;
+            letter-spacing:0.05em;
+            font-weight:bold;
+        }
+        width:400px;
+        font-size: 20px;
+        letter-spacing:0.1em;
+        margin:0 auto;
+        }
+
+    .more{
+        text-align: center;
+        margin-top:30px; 
+        
+        a{display: inline-block;
+        padding: 10px 24px;
+        color: white;
+        background-color:black;
+        cursor:pointer;
+        transition:all 0.3s;
+
+    &:hover{
+        cursor:pointer;
+        background-color:green;
+    }
+}
+    }
+    }
+   
+
+}
+// <!-- /bottom -->
+
+// menu
+
+#menu{
+    height:550px;
+    width:100%;
+    background-color:#f6f6f6;
+
+
+       .menu-wrapper{
+       .menu_containt{
+        width:50%;
+        float:right;
+        
+        .menu-img{
+            border-left-color: rgba(0, 0, 0, 0.498039);
+            border-left-style: solid;
+            border-width: 1.5px;
+            border-collapse: collapse;
+
+
+        }
+
+
+    
+        img{
+            width:400px;
+            height:450px;
+        
+    }
+       }
+    .menu_text{
+        h2{font-size: 45px;
+            letter-spacing:0.05em;
+            font-weight:bold;
+        }
+        width:400px;
+        font-size: 20px;
+        letter-spacing:0.1em;
+        margin:0 auto;
+       
+
+    
+   
+    .more{
+        text-align: center;
+        margin-top:30px; 
+        
+        a{display: inline-block;
+        padding: 10px 24px;
+        color: white;
+        background-color:black;
+        cursor:pointer;
+        transition:all 0.3s;
+
+    &:hover{
+        cursor:pointer;
+        background-color:green;
+    }
+}
+    }
+    }
+   
+
+}
+}
+// menu
+
+
+// <!-- footer -->
+footer{
+    background-color: white;
+    height:100px;
+    
+    .navi2{
+        padding:20 30;
+        height:70px;
+ 
+ 
+ 
+ 
+     .footer-left{
+         float:left;
+ 
+ 
+         h1{
+             width:300px;
+         font-family:'Trebuchet';
+          font-size: 25px;
+         letter-spacing:0.1em;
+         padding:5px;
+         line-height: 50px;
+         margin:0 auto;
+         border-color: #333;
+         border-style: solid;
+         border-width: 2.5px;
+         border-collapse: collapse;
+         }
+         
+     }
+      .footer-right{
+          float:right;
+          width:500px;
+          ul{
+ 
+             li{display:inline;
+                 a{
+                 font-size:20px;
+                 padding:0 5px;
+                 }
+                 &:hover{
+                    color:white;
+                   
+                 }
+             }
+          }
+      }
+ 
+    }
+
+}
+ 
+
+    
+
+// <!-- /footer --> 
+
+
+
+// <!-- footer --> 
+
+.name{
+    height:70px;
+    border-top-style: solid;
+            border-top-width: 1.5px;
+            border-collapse: collapse;
+    p{
+
+        padding-top:10px;
+        font-family:'Trebuchet';
+        font-weight: bold;
+        color:#333;
+        letter-spacing: 0.15em;
+        line-height: 25px;
+            
+    }
+}
+
+// <!-- /footer --> 
+
+
+
+
+
+
+
+// tablet
+@media (max-width:1000px) {
+
+}
+
+
+// /tablet
+
+
+// smartphone
+
+@media (max-width:670px) {
+    header{
+
+
+        .header-right{ display:none;}
+    }
+    
+
+
+    
+    .top{
+        height:1200px;
+        padding:0;
+        .top-wrapper{
+            h1{
+                padding:0px;
+                border:none;
+                }       
+    }
+    .contents{
+        margin:0 auto;
+        padding:100px;
+
+       
+           
+    .services{
+        height:350px;
+        width:100%;
+        padding:30px 0;
+
+        }
+        
+    
+    
+    .services-text{
+        height:320px;
+       padding:10px;
+        
+        
+    }
+    }
+    }
+    
+
+
+    .middle{
+        height:3300px;
+        .middle-wrapper{ 
+            .contents{
+             .content{
+                
+                 padding-top:30px;
+                 padding-bottom:20px;
+            display:block;
+            width: 100%;
+            }
+          }
+         
+       
+
+       
+            
+
+    }
+
+}
+    .center{
+
+        height:480px;
+
+        .contents{
+        h3{width:400px;
+          }
+    
+    .service-text{
+        width:100%;
+  
+}
+}
+    }
+
+
+
+#bottom{
+    height:900px;
+    padding-top:100px;
+
+       .bottom-wrapper{
+
+       .place_containt{
+        width:100%;
+        
+        .place-img{
+            border:none;
+        }
+
+        img{
+            width:300px;
+            height:350px;
+    }
+       }
+    .place_text{
+        h2{font-size: 45px;
+            letter-spacing:0.05em;
+            font-weight:bold;
+        }
+        width:300px;
+        font-size: 20px;
+        letter-spacing:0.1em;
+        margin:0 auto;
+        }
+
+
+    }
+   
+
+}
+
+
+
+    #menu{
+        height:900px;
+
+
+       .menu-wrapper{
+
+       .menu_containt{
+        width:100%;
+        
+        .menu-img{
+            border:none;
+        }
+
+        img{
+            width:300px;
+            height:350px;}
+       }
+    
+    }
+}
+    
+footer{
+    background-color: white;
+    height:100px;
+    .navi2{
+        padding:20 30;
+        width:300px;
+        margin:0 auto;
+ 
+ 
+ 
+     .footer-left{
+         text-align:center;
+ 
+ 
+         h1{
+         font-family:'Trebuchet';
+          font-size: 25px;
+         letter-spacing:0.1em;
+         padding:5px;
+         line-height: 50px;
+         border-color: #333;
+         border-style: solid;
+         border-width: 2.5px;
+         border-collapse: collapse;
+         }
+         
+     }
+      .footer-right{
+        display:none;
+          ul{
+              padding:0;
+ 
+             li{display:inline;
+                 a{
+                 font-size:20px;
+                 padding:0 5px;
+                 }
+                
+             }
+          }
+      }
+ 
+    }
+
+    }
+
+
+
+
+    }
+// /smartphone
