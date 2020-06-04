@@ -1,0 +1,281 @@
+<div lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <m
+    eta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>My little Preston</title>
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
+
+</head>
+<div>
+<!-- header -->
+    <header>
+        <div class="navi">
+            <div class="header-left">
+        <h1>My Little<br>
+            Preston</h1>
+             </div>
+        
+
+        <div class="header-right">
+            <ul>
+                  <li>
+                      <a href="#home">HOME</a>
+                  </li>
+                  <li>
+                    <a href="#menu">MENU</a>
+                  </li>
+                  <li>
+                    <a href="#about">ABOUT</a>
+                  </li>
+                  <li>
+                    <a href="#location">LOCATION</a>
+                  </li>
+            </ul>
+        </div>
+        </div>
+
+    </header>
+
+   
+
+<!-- /header -->
+
+<!-- top -->
+     <div class="top">
+         <div class="top-wrapper">
+             <h1>My Little Preston</h1>
+             <div class="contents">
+                 <div class="services">
+                     <div class="services-text">
+                         <h3>WHOLESALE</h3>
+                         <p>At Mörk we love businesses that are passionate as we are sustainability, transparency and traceability in the artisanal chocolate industry. 
+                            If you’d like to chat about working with us, please get in touch via our Wholesale page...</p>
+
+                     </div>
+                 </div>
+
+                
+                
+                <div class="services">
+                    <div class="services-text">
+                        <h3>ABOUT</h3>
+                        <p>In 2012, we created the first Mörk hot chocolate blend using the same approach taken by specialty coffee-makers; with respect for the traceability, quality and unique origin of ingredients all the way from bean to cup. That’s what makes Mörk different from other drinking chocolates you find in the industry today. 
+                        </p>
+
+                    </div>
+                </div>
+             </div>
+
+
+
+
+
+         </div>
+
+
+     </div>
+<!-- /top -->
+
+
+<!-- middle -->
+    <div class="middle">
+        <div class="middle-wrapper">
+            <div class="contents">
+                <div class="content">
+                    <div class="content-img">
+                      <img src="img/newwaves.jpg">
+                      </div>
+                      <div class="text-contents">
+                      <h4><a href="#" class="">NEW WAVES</a></h4>
+                      <p>Hosszú keresés után leltünk rá arra a kávéra, a Workshop Coffee Co. kávéjaira, melyet bátran merünk a ház "sajátjának" nevezni. Imádjuk a változatosságát és főleg azt, hogy ez nem a minőségében jelentkezik! Az állandó kávékínálatunkon felül, hetente megújuló vendégkávék is érkeznek, nagyrészt európai mikropörkölőktől.</p>
+                      <div class="readmore"><a href="# ">READ MORE</a></div>
+                    </div>
+                    </div>
+                    
+                    <div class="content">
+                        <div class="content-img">
+                          <img src="img/beans2.jpg">
+                          </div>
+                          <div class="text-contents">
+
+                          <h4><a href="#" class="">St.Ali Beans</a></h4>
+
+                          <p>
+                            At Mörk we love businesses that are passionate as we are sustainability, transparency and traceability in the artisanal chocolate industry. 
+                            If you’d like to chat about working with us, please get in touch via our Wholesale page...
+                          </p>
+                          <div class="readmore"><a href="# ">READ MORE</a></div>
+                        </div>
+                    </div>
+
+                        <div class="content">
+                            <div class="content-img">
+                              <img src="img/greentea.jpg">
+                              </div>
+                              <div class="text-contents">
+
+                              <h4><a href="#" class="">MATCHA</a></h4>
+                               <p>We craft Mörk specialty hot chocolate with all-natural, not-so-secret ingredients.
+                                Cacao powder; lavish blocks of 1005 unsweetened chocolate; organic unrefined coconut blossom sugar- it’s all part of what makes Mörk Chocolate special. </p>
+                               <div class="readmore"><a href="# ">READ MORE</a></div>
+                            </div>
+
+                            </div>
+            </div>
+
+    </div>
+
+</div>
+</div>
+
+
+
+    </div>
+<!-- /middle -->
+
+<!-- <center> -->
+    <div class="center">
+        <div class="center-wrapper">
+            <div class="contents">
+        
+               
+               
+               <div class="services">
+                   <div class="services-text">
+                       <h3>EVERYTHIG GONNA BE ALRIGHT<br> WE HAVE COFFEE</h3>
+                       <div class="service-text">
+
+                       <p>At Mörk we love businesses that are as passionate as we are about sustainability, 
+                           transparency and traceability in the artisanal chocolate industry.
+                        If you’d like to chat about working with us,
+                         please get in touch via email: contact@morkchocolate.com.au</p>
+                       </div>
+                   </div>
+               </div>
+            </div>
+
+
+
+
+
+        </div>
+
+
+    </div>
+<!-- /center -->
+
+
+<!-- <bottom> -->
+    <div id="bottom">
+        <div class="bottom-wrapper">
+        <div class="place_containt place-2" >
+        <div class="place-img">
+             <img src="img/auctionrooms.jpg">
+            </div>
+          
+        </div>      
+        
+          <div class="place_containt" >
+          <div class="place_text">
+              <h2>Location</h2>
+            <p>Discover our handmade collections, uncover our stories and enjoy a moment of Koko, far away from the hustle and bustle, in a world of our own.
+            </p>
+    
+        <div class="more">
+            <a href="#">FIND US</a></div>
+          </div>
+        </div>
+        </div>
+      </div>
+
+<!-- /<bottom> -->
+
+    <!-- manu -->
+    <div id="menu">
+    <div class="menu-wrapper">
+    <div class="menu_containt menu-2" >
+    <div class="menu-img">
+         <img src="img/bread.jpg">
+        </div>
+      
+    </div>      
+    
+      <div class="menu_containt" >
+      <div class="menu_text">
+        <h2>New Lounge Menu</h2>
+        <P>Savoury, sweet & ready to eat. Whether you like to keep it sweet or prefer something a little savoury, we have the perfect pick for every palate.
+        </P>
+
+    <div class="more">
+        <a href="# ">FIND OUT MORE</a></div>
+      </div>
+    </div>
+    </div>
+  </div>
+    <!-- /menu -->
+
+
+<!-- footer -->
+
+ 
+
+<footer>
+    <div class="navi2">
+        <div class="footer-left">
+    <h1>My Little Preston</h1>
+         </div>
+    
+
+    <div class="footer-right">
+        <ul>
+              <li>
+                  <a href="#home">HOME</a>
+              </li>
+              <li>
+                <a href="#menu">MENU</a>
+              </li>
+              <li>
+                <a href="#about">ABOUT</a>
+              </li>
+              <li>
+                <a href="#location">LOCATION</a>
+              </li>
+        </ul>
+    </div>
+   
+    </div>
+
+</footer>
+
+
+<!-- /footer -->
+
+
+
+
+
+
+<!-- footer --> 
+
+<div class="name">
+
+    <p>My Little Preston 2020<br>
+    Designed by Hiro</P>
+
+
+
+</div>
+
+
+
+<!-- /footer --> 
+
+
+</body>
