@@ -33,7 +33,7 @@ body{
     .top{
         height: auto;
         background-position: center;
-        background-image: url(img/fitzroy.jpg);
+        background-image: url(fitzroy.jpg);
         background-size: cover;
         color:blue;
 
